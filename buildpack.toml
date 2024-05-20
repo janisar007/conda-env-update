@@ -1,14 +1,14 @@
 api = "0.7"
 
 [buildpack]
-  homepage = "https://github.com/paketo-buildpacks/conda-env-update"
-  id = "paketo-buildpacks/conda-env-update"
-  name = "Paketo Buildpack for Conda Env Update"
+  homepage = "https://github.com/initializ-buildpacks/conda-env-update"
+  id = "initializ-buildpacks/conda-env-update"
+  name = "Initializ Buildpack for Conda Env Update"
   sbom-formats = ["application/vnd.cyclonedx+json", "application/spdx+json", "application/vnd.syft+json"]
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/conda-env-update/blob/main/LICENSE"
+    uri = "https://github.com/initializ-buildpacks/conda-env-update/blob/main/LICENSE"
 
 [metadata]
   include-files = ["bin/run", "bin/build", "bin/detect", "buildpack.toml"]

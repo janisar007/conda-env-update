@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	condaenvupdate "github.com/paketo-buildpacks/conda-env-update"
-	"github.com/paketo-buildpacks/conda-env-update/fakes"
+	condaenvupdate "github.com/initializ-buildpacks/conda-env-update"
+	"github.com/initializ-buildpacks/conda-env-update/fakes"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/chronos"
 	"github.com/paketo-buildpacks/packit/v2/sbom"
