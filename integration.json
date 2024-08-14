@@ -2,6 +2,6 @@
   "builders": [
     "index.docker.io/initializbuildpacks/securepacks-initzbuilder:latest"
   ],
-  "miniconda": "github.com/paketo-buildpacks/miniconda",
+  "miniconda": "github.com/initializ-buildpacks/miniconda",
   "build-plan": "github.com/paketo-community/build-plan"
 }
