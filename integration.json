@@ -3,6 +3,6 @@
     "index.docker.io/paketobuildpacks/builder:buildpackless-base",
     "index.docker.io/paketobuildpacks/builder-jammy-buildpackless-base:latest"
   ],
-  "miniconda": "github.com/initializ-buildpacks/miniconda",
+  "miniconda": "github.com/paketo-buildpacks/miniconda",
   "build-plan": "github.com/paketo-community/build-plan"
 }
