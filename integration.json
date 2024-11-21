@@ -1,6 +1,6 @@
 {
   "builders": [
-    "index.docker.io/initializbuildpacks/securepacks-initzbuilder:latest"
+    "index.docker.io/paketobuildpacks/builder-jammy-buildpackless-base:latest"
   ],
   "miniconda": "github.com/initializ-buildpacks/miniconda",
   "build-plan": "github.com/paketo-community/build-plan"
